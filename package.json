@@ -10,7 +10,7 @@
     "test": "npm run unit",
     "lint": "eslint --ext .js,.vue src test/unit",
     "build": "node build/build.js",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "npm run build; push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "vue": "^2.5.2",
