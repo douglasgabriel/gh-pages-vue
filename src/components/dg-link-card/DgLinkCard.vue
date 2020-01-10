@@ -1,5 +1,5 @@
 <template>
-  <p>Card</p>
+  <p>{{ $t('hello') }}</p>
 </template>
 
 <script>
