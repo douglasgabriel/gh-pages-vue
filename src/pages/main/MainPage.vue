@@ -1,11 +1,14 @@
 <template>
   <div id="main-page">
-    <h1>Hello World</h1>
+    <DgLinkCard />
   </div>
 </template>
 
 <script>
+import DgLinkCard from '@/components/dg-link-card/DgLinkCard'
+
 export default {
+  components: { DgLinkCard }
 }
 </script>
 
