@@ -1,5 +1,7 @@
 <template>
-  <p>{{ $t('hello') }}</p>
+  <p>
+    {{ $t('hello') }}
+  </p>
 </template>
 
 <script>
@@ -18,5 +20,5 @@ export default {
 }
 </script>
 
-<style scoped>
+<style  lang="scss" scoped>
 </style>
