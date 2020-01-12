@@ -50,7 +50,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/gh-pages-vue',
+    assetsPublicPath: '/gh-pages-vue/',
 
     /**
      * Source Maps
