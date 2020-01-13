@@ -1,3 +1,20 @@
 {
-    "hello": "Olá mundo"
+    "page": {
+        "about": {
+            "title": "Sobre",
+            "subtitle": "Um pouco sobre mim"
+        },
+        "resume": {
+            "title": "Currículo",
+            "subtitle": "Minhas habilidades profissionais"
+        },
+        "portfolio": {
+            "title": "Portifólio",
+            "subtitle": "Meu trabalho"
+        },
+        "blog": {
+            "title": "Blog",
+            "subtitle": "Analista de sistemas e das coisas da vida"
+        }
+    }
 }

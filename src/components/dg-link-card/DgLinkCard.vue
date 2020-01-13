@@ -50,7 +50,7 @@ export default {
     left:0;
     right:0;
     background-color: #101524;
-    opacity: .5;
+    opacity: .7;
 
     transition: all 0.5s;
   }

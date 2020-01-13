@@ -1,0 +1,10 @@
+.row {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.column {
+    display: table-cell;
+}
