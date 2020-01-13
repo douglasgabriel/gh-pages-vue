@@ -1,10 +1,5 @@
 <template>
-  <div id="dg-link-card">
-    <div class="background">
-      <img :src="backgroundUrl"
-           :alt="title + ' background image'">
-    </div>
-
+  <div class="dg-link-card" :style="backgroundStyle()">
     <div class="content">
       <i :class="'icon ' + iconClass"></i>
       <h3 class="title">{{ title }}</h3>
@@ -28,47 +23,41 @@ export default {
     backgroundUrl: {
       type: String
     }
+  },
+  data: function () {
+    return {
+      backgroundStyle: function () { return { backgroundImage: `url(${this.backgroundUrl})` } }
+    }
   }
 }
 </script>
 
 <style lang="scss" scoped>
-#dg-link-card {
+.dg-link-card {
   color: white;
 
-  &, & .background, & .content {
-    width: 100%;
-    height: 100%;
+  background-size:auto 110%;
+  background-position: center;
+
+  transition: all 0.5s;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: #101524;
+    opacity: .5;
+
+    transition: all 0.5s;
   }
 
-  .background {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-
-    img {
-      width: 110%;
-      height: 110%;
-      transition: all 0.5s;
-    }
-
-    &:after {
-      content: '';
-
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-
-      background-color: #101524;
-      opacity: .5;
-
-      transition: all 0.5s;
-    }
+  &, & .content {
+    width: 100%;
+    height: 100%;
   }
 
   .content {
@@ -123,16 +112,11 @@ export default {
   }
 }
 
-#dg-link-card:hover {
-  .background {
-    img {
-      width: 100%;
-      height: 100%;
-    }
+.dg-link-card:hover {
+  background-size: auto 100%;
 
-    &:after {
-      opacity: .3;
-    }
+  &:before {
+    opacity: .2;
   }
 
   .content {

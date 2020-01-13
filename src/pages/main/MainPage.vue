@@ -1,15 +1,23 @@
 <template>
-  <div id="main-page">
-    <DgLinkCard iconClass="ion-md-heart"
+  <div id="main-page" class="row">
+      <div class="column">
+        <DgLinkCard iconClass="ion-md-heart"
                 title="Testing"
                 subtitle="I'm testing"
                 :backgroundUrl="bg" />
+      </div>
+      <div class="column">
+        <DgLinkCard iconClass="ion-md-heart"
+                title="Testing"
+                subtitle="I'm testing"
+                :backgroundUrl="bg" />
+      </div>
   </div>
 </template>
 
 <script>
 import DgLinkCard from '@/components/dg-link-card/DgLinkCard'
-import Bg from '@/assets/bg1.jpeg'
+import Bg from '@/assets/images/bg1.jpeg'
 
 export default {
   components: { DgLinkCard },

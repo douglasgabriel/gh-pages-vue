@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import WipImage from '@/assets/wip.png'
+import WipImage from '@/assets/images/wip.png'
 
 export default {
   name: 'App',
@@ -20,6 +20,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import '@/assets/style/main.scss';
+
 html, body, #app {
   width: 100%;
   height: 100%;
