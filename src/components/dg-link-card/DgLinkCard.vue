@@ -1,10 +1,12 @@
 <template>
   <div class="dg-link-card" :style="backgroundStyle()">
-    <div class="content">
-      <i :class="'icon ' + iconClass"></i>
-      <h3 class="title">{{ title }}</h3>
-      <p class="subtitle">{{ subtitle }}</p>
-    </div>
+    <a :href="link">
+      <div class="content">
+        <i :class="'icon ' + iconClass"></i>
+        <h3 class="title">{{ title }}</h3>
+        <p class="subtitle">{{ subtitle }}</p>
+      </div>
+    </a>
   </div>
 </template>
 
@@ -22,40 +24,49 @@ export default {
     },
     backgroundUrl: {
       type: String
+    },
+    link: {
+      type: String
     }
   },
-  data: function () {
+  data: function() {
     return {
-      backgroundStyle: function () { return { backgroundImage: `url(${this.backgroundUrl})` } }
-    }
+      backgroundStyle: function() {
+        return { backgroundImage: `url(${this.backgroundUrl})` };
+      }
+    };
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
 .dg-link-card {
-  color: white;
-
-  background-size:auto 110%;
+  background-size: auto 110%;
   background-position: center;
 
   transition: all 0.5s;
   position: relative;
 
-  &, & .content {
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  &,
+  & .content {
     width: 100%;
     height: 100%;
   }
 
   &:before {
-    content: '';
+    content: "";
     position: absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background-color: #101524;
-    opacity: .7;
+    opacity: 0.7;
 
     transition: all 0.5s;
   }
@@ -65,7 +76,7 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position:relative;
+    position: relative;
 
     .icon {
       font-size: 50px;
@@ -84,17 +95,17 @@ export default {
       border-radius: 50%;
 
       &:after {
-        content: '';
+        content: "";
         position: absolute;
         top: 50px;
         bottom: 50px;
         left: 50px;
         right: 50px;
         background-color: white;
-        opacity: .3;
+        opacity: 0.3;
         border-radius: 50%;
 
-        transition: all .2s
+        transition: all 0.2s;
       }
     }
 
@@ -104,7 +115,7 @@ export default {
 
     .subtitle {
       opacity: 0;
-      transition: all .3s;
+      transition: all 0.3s;
 
       font-style: italic;
       margin: 0;
@@ -116,16 +127,16 @@ export default {
   background-size: auto 100%;
 
   &:before {
-    opacity: .2;
+    opacity: 0.2;
   }
 
   .content {
     .icon {
       &:after {
-        top:-10px;
-        bottom:-10px;
-        left:-10px;
-        right:-10px;
+        top: -10px;
+        bottom: -10px;
+        left: -10px;
+        right: -10px;
       }
     }
 

@@ -4,7 +4,8 @@
         <DgLinkCard iconClass="ion-ios-person"
                 :title="$t('page.about.title')"
                 :subtitle="$t('page.about.subtitle')"
-                :backgroundUrl="meBg" />
+                :backgroundUrl="meBg"
+                link="#/about" />
       </div>
       <div class="column">
         <DgLinkCard iconClass="ion-ios-paper"

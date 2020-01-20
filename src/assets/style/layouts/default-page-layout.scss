@@ -1,0 +1,33 @@
+.default-page-layout {
+  header {
+    min-height: 300px;
+    background-color: antiquewhite;
+
+    .left-actions {
+      padding: 20px;
+      width: 60px;
+    }
+
+    .content {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+  }
+
+  main {
+    background-color: white;
+    position: relative;
+
+    &:before {
+      content: "";
+      background-color: white;
+      height: 20px;
+      display: block;
+      position: relative;
+      bottom: 20px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      box-shadow: 0 -13px 13px -3px rgba(0, 0, 0, 0.2);
+    }
+  }
+}
