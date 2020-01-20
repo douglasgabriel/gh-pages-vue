@@ -9,6 +9,7 @@ export default new VueI18n({
   locale: navigator.language || navigator.userLanguage,
   messages: {
     en,
+    'en-US': en,
     'pt-BR': ptBr
   }
 })
