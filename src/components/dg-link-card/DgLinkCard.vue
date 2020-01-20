@@ -42,6 +42,11 @@ export default {
   transition: all 0.5s;
   position: relative;
 
+  &, & .content {
+    width: 100%;
+    height: 100%;
+  }
+
   &:before {
     content: '';
     position: absolute;
@@ -53,11 +58,6 @@ export default {
     opacity: .7;
 
     transition: all 0.5s;
-  }
-
-  &, & .content {
-    width: 100%;
-    height: 100%;
   }
 
   .content {
