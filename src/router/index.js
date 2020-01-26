@@ -10,12 +10,18 @@ export default new Router({
     {
       path: '/',
       name: 'MainPage',
-      component: MainPage
+      component: MainPage,
+      meta: {
+        title: 'Douglas Gabriel'
+      }
     },
     {
       path: '/about',
       name: 'AboutPage',
-      component: AboutPage
+      component: AboutPage,
+      meta: {
+        title: 'About'
+      }
     }
   ]
 })

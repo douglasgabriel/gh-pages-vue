@@ -15,6 +15,11 @@ export default {
   name: 'App',
   computed: {
     wipImage () { return WipImage }
+  },
+  watch: {
+    '$route' (to, from) {
+      document.title = to.meta.title
+    }
   }
 }
 </script>
