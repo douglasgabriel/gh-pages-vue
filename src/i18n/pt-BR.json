@@ -2,7 +2,11 @@
     "page": {
         "about": {
             "title": "Sobre",
-            "subtitle": "Um pouco sobre mim"
+            "subtitle": "Um pouco sobre mim",
+            "inside": {
+                "greeting": "Olá",
+                "introduction": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, neque sapiente, corrupti tempora quaerat dolore doloremque asperiores animi deleniti officia quia minima. Incidunt, temporibus unde suscipit iste sunt deserunt quasi."
+            }
         },
         "resume": {
             "title": "Currículo",

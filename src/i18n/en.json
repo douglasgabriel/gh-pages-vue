@@ -2,7 +2,11 @@
     "page": {
         "about": {
             "title": "About",
-            "subtitle": "A little more about me"
+            "subtitle": "A little more about me",
+            "inside": {
+                "greeting": "Hey",
+                "introduction": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, neque sapiente, corrupti tempora quaerat dolore doloremque asperiores animi deleniti officia quia minima. Incidunt, temporibus unde suscipit iste sunt deserunt quasi."
+            }
         },
         "resume": {
             "title": "Resume",

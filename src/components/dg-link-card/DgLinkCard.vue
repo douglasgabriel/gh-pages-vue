@@ -29,14 +29,14 @@ export default {
       type: String
     }
   },
-  data: function() {
+  data: function () {
     return {
-      backgroundStyle: function() {
-        return { backgroundImage: `url(${this.backgroundUrl})` };
+      backgroundStyle: function () {
+        return { backgroundImage: `url(${this.backgroundUrl})` }
       }
-    };
+    }
   }
-};
+}
 </script>
 
 <style lang="scss" scoped>
