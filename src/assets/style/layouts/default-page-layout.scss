@@ -1,7 +1,6 @@
 .default-page-layout {
   header {
-    background-color: antiquewhite;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
 
     .left-actions {
       padding: 20px;
@@ -10,7 +9,7 @@
     }
 
     .content {
-      max-width: 1200px;
+      max-width: 1000px;
       margin: 0 auto;
     }
   }
@@ -18,17 +17,14 @@
   main {
     background-color: white;
     position: relative;
+    bottom: 100px;
+    border-radius: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 50px;
+  }
 
-    &:before {
-      content: "";
-      background-color: white;
-      height: 20px;
-      display: block;
-      position: relative;
-      bottom: 20px;
-      border-top-left-radius: 20px;
-      border-top-right-radius: 20px;
-      box-shadow: 0 -13px 13px -3px rgba(0, 0, 0, 0.2);
-    }
+  footer {
+    min-height: 300px;
   }
 }
