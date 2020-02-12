@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import MainPage from '@/pages/main/MainPage'
-import AboutPage from '@/pages/about/AboutPage'
+import ResumePage from '@/pages/resume/ResumePage'
 
 Vue.use(Router)
 
@@ -16,11 +16,11 @@ export default new Router({
       }
     },
     {
-      path: '/about',
-      name: 'AboutPage',
-      component: AboutPage,
+      path: '/resume',
+      name: 'ResumePage',
+      component: ResumePage,
       meta: {
-        title: 'About'
+        title: 'Resume'
       }
     }
   ]

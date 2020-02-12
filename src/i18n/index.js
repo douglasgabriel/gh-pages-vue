@@ -7,6 +7,7 @@ Vue.use(VueI18n)
 
 export default new VueI18n({
   locale: navigator.language || navigator.userLanguage,
+  fallbackLocale: 'en',
   messages: {
     en,
     'en-US': en,

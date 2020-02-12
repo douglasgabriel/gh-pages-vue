@@ -1,9 +1,8 @@
 .default-page-layout {
   header {
-    padding-bottom: 100px;
+    padding: 50px 0;
 
     .left-actions {
-      padding: 20px;
       width: 60px;
       font-size: 30px;
     }
@@ -15,16 +14,7 @@
   }
 
   main {
-    background-color: white;
-    position: relative;
-    bottom: 100px;
-    border-radius: 30px;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 30px 50px;
-  }
-
-  footer {
-    min-height: 300px;
   }
 }

@@ -41,8 +41,9 @@ export default {
 
 <style lang="scss" scoped>
 .dg-link-card {
-  background-size: auto 110%;
+  background-size: auto 200%;
   background-position: center;
+  background-repeat: no-repeat;
 
   transition: all 0.5s;
   position: relative;
@@ -124,7 +125,7 @@ export default {
 }
 
 .dg-link-card:hover {
-  background-size: auto 100%;
+  background-size: auto 150%;
 
   &:before {
     opacity: 0.2;

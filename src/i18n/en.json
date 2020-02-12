@@ -1,24 +1,51 @@
 {
     "page": {
-        "about": {
-            "title": "About",
-            "subtitle": "A little more about me",
-            "inside": {
-                "greeting": "Hey",
-                "introduction": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, neque sapiente, corrupti tempora quaerat dolore doloremque asperiores animi deleniti officia quia minima. Incidunt, temporibus unde suscipit iste sunt deserunt quasi."
-            }
-        },
         "resume": {
             "title": "Resume",
-            "subtitle": "My professional skills"
+            "subtitle": "About my career",
+            "inside": {
+                "title": "Hello! I'm Douglas",
+                "subtitle": "Full-stack Engineer",
+                "description": "Passionate about my profession, for being constantly challenged to solve problems from the most varied domains and increasingly learn from it.\nIn love with the possibility of observing the world as it is and asking myself a simple question:\n'How this problem can be solved with Software' :D"
+            },
+            "work": {
+                "experiences": {
+                    "jaya": {
+                        "duration": "2018 - Present",
+                        "name": "Jaya.Tech",
+                        "role": "Sr Software Engineer",
+                        "description": "Building a bank from scratch"
+                    },
+                    "lenovo": {
+                        "duration": "2017 - 2018",
+                        "name": "Lenovo | LSD, SPlab - UFCG",
+                        "role": "Software Engineer",
+                        "description": "I worked with people around the world, working on Open Source projects in a partnership between Lenovo and Red Hat. I was able to contribute to really great projects like ManageIQ and Lenovo XClarity, so that with different cultures of software development , I was able to evolve my own mindset, evolve as a professional, and get experience in a stack based on Ruby on Rails."
+                    },
+                    "cartapio": {
+                        "duration": "2016 - 2017",
+                        "name": "Cartápio",
+                        "role": "Founder",
+                        "description": "I founded the Cartapio for the will to undertake, the will to create something great, the willingness to show that I could create a project that had a positive impact on people's lives. With this, I gained experience at business, customer contact and support and technologies used (Java, Spring Framework, AngularJs) and an even greater willingness to create new projects."
+                    },
+                    "stefanini": {
+                        "duration": "2016 - 2017",
+                        "name": "Stefanini",
+                        "role": "Software Engineer",
+                        "description": "At Stefanini, I had the opportunity to work with some technologies, such as: Java, Spring Framework, FreeMarker, AngularJs, ASP.NET, JSF and others. Besides the opportunity to work on some projects for Correios, Caixa and Usebens. Interacting directly with clients, analyzing solutions, assuming the role of technical leader."
+                    },
+                    "redenet": {
+                        "duration": "2016",
+                        "name": "Redenet",
+                        "role": "Software Engineer",
+                        "description": "I have worked on the evolution of Web systems based on the Java stack (JSF, JPA, EJB) since the requirements survey, until deploy. Later I developed the specification of a system with more modern technologies (AngularJs, Ionic Framework, Spring Framework) becoming the technical leader at the beginning of the project."
+                    }
+                }
+            }
         },
         "portfolio": {
             "title": "Portfolio",
             "subtitle": "My work"
-        },
-        "blog": {
-            "title": "Blog",
-            "subtitle": "Systems and Life analyst"
         }
     }
 }
