@@ -41,6 +41,19 @@
                         "description": "I have worked on the evolution of Web systems based on the Java stack (JSF, JPA, EJB) since the requirements survey, until deploy. Later I developed the specification of a system with more modern technologies (AngularJs, Ionic Framework, Spring Framework) becoming the technical leader at the beginning of the project."
                     }
                 }
+            },
+            "education": {
+                "title": "Education",
+                "ifpb": {
+                    "title": "Instituto Federal de Educação, Ciência e Tecnologia da Paraíba",
+                    "degree": "System Analysis and Development",
+                    "duration": "2013-2016",
+                    "extra": {
+                        "president": "President Director at Junior Enterprise",
+                        "tutor": "OOP Tutor",
+                        "scholarship": "Scholarship at Young Talent for Science"
+                    }
+                }
             }
         },
         "portfolio": {
