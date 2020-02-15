@@ -4,20 +4,7 @@
       <section class="column photo-wrapper">
         <div class="photo">
           <div class="me z-depth-5" :style="meImgStyle"></div>
-          <section class="social-links">
-            <ul>
-              <li>
-                <a href="https://github.com/douglasgabriel" target="blank">
-                  <i class="icon ion-logo-github"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/douglasggabriel/" target="blank">
-                  <i class="icon ion-logo-linkedin"></i>
-                </a>
-              </li>
-            </ul>
-          </section>
+          <DgSocialLinks />
         </div>
       </section>
       <section class="column content-wrapper">
@@ -31,8 +18,10 @@
 
 <script>
 import meImg from '@/assets/images/me.jpg'
+import DgSocialLinks from '@/pages/sections/dg-social-links/DgSocialLinks'
 
 export default {
+  components: { DgSocialLinks },
   data: function () {
     return {
       meImg,
@@ -77,22 +66,6 @@ export default {
     color: #6aead0;
     font-size: 50px;
     display: inline;
-  }
-
-  .social-links {
-    a {
-      color: #6aead0;
-    }
-    ul {
-      padding: 0;
-
-      li {
-        font-size: 30px;
-        list-style: none;
-        display: inline-block;
-        margin-right: 10px;
-      }
-    }
   }
 }
 </style>

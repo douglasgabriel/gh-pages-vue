@@ -35,6 +35,7 @@ html, body, #app {
 
 html {
   background-color: #F2F7FA;
+  overflow-x: hidden;
 }
 
 #app {

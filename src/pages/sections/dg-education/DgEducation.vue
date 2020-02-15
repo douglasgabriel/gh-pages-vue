@@ -51,6 +51,7 @@ export default {
 
   .content {
     padding: 20px 0;
+    padding-bottom: 40px;
 
     .photo {
       width: 200px;
