@@ -7,10 +7,14 @@
           <section class="social-links">
             <ul>
               <li>
-                <i class="icon ion-logo-github"></i>
+                <a href="https://github.com/douglasgabriel" target="blank">
+                  <i class="icon ion-logo-github"></i>
+                </a>
               </li>
               <li>
-                <i class="icon ion-logo-linkedin"></i>
+                <a href="https://www.linkedin.com/in/douglasggabriel/" target="blank">
+                  <i class="icon ion-logo-linkedin"></i>
+                </a>
               </li>
             </ul>
           </section>
@@ -40,7 +44,6 @@ export default {
 
 <style scoped lang="scss">
 .presentation-card {
-
   .photo-wrapper {
     width: 290px;
 
@@ -77,7 +80,9 @@ export default {
   }
 
   .social-links {
-    color: #6aead0;
+    a {
+      color: #6aead0;
+    }
     ul {
       padding: 0;
 
