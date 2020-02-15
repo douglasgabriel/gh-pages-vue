@@ -26,9 +26,9 @@
 </template>
 
 <script>
-import DgPresentationCard from '@/components/dg-presentation-card/DgPresentationCard'
-import DgWorkExperiences from '@/components/dg-work-experiences/DgWorkExperiences'
-import DgEducation from '@/components/dg-education/DgEducation'
+import DgPresentationCard from '@/pages/sections/dg-presentation-card/DgPresentationCard'
+import DgWorkExperiences from '@/pages/sections/dg-work-experiences/DgWorkExperiences'
+import DgEducation from '@/pages/sections/dg-education/DgEducation'
 
 export default {
   components: { DgPresentationCard, DgWorkExperiences, DgEducation }

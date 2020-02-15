@@ -21,7 +21,8 @@
         :duration="$t('page.resume.work.experiences.jaya.duration')"
         :company="$t('page.resume.work.experiences.jaya.name')"
         :role="$t('page.resume.work.experiences.jaya.role')"
-        :icon="jayaIcon">
+        :icon="jayaIcon"
+        :technologies="$t('page.resume.work.experiences.jaya.technologies')">
         {{ $t('page.resume.work.experiences.jaya.description') }}
       </DgWorkExperience>
 
@@ -29,7 +30,8 @@
         :duration="$t('page.resume.work.experiences.lenovo.duration')"
         :company="$t('page.resume.work.experiences.lenovo.name')"
         :role="$t('page.resume.work.experiences.lenovo.role')"
-        :icon="lenovoIcon">
+        :icon="lenovoIcon"
+        :technologies="$t('page.resume.work.experiences.lenovo.technologies')">
         {{ $t('page.resume.work.experiences.lenovo.description') }}
       </DgWorkExperience>
 
@@ -37,7 +39,8 @@
         :duration="$t('page.resume.work.experiences.cartapio.duration')"
         :company="$t('page.resume.work.experiences.cartapio.name')"
         :role="$t('page.resume.work.experiences.cartapio.role')"
-        :icon="cartapioIcon">
+        :icon="cartapioIcon"
+        :technologies="$t('page.resume.work.experiences.cartapio.technologies')">
         {{ $t('page.resume.work.experiences.cartapio.description') }}
       </DgWorkExperience>
 
@@ -45,7 +48,8 @@
         :duration="$t('page.resume.work.experiences.stefanini.duration')"
         :company="$t('page.resume.work.experiences.stefanini.name')"
         :role="$t('page.resume.work.experiences.stefanini.role')"
-        :icon="stefaniniIcon">
+        :icon="stefaniniIcon"
+        :technologies="$t('page.resume.work.experiences.stefanini.technologies')">
         {{ $t('page.resume.work.experiences.stefanini.description') }}
       </DgWorkExperience>
 
@@ -53,7 +57,8 @@
         :duration="$t('page.resume.work.experiences.redenet.duration')"
         :company="$t('page.resume.work.experiences.redenet.name')"
         :role="$t('page.resume.work.experiences.redenet.role')"
-        :icon="redenetIcon">
+        :icon="redenetIcon"
+        :technologies="$t('page.resume.work.experiences.redenet.technologies')">
         {{ $t('page.resume.work.experiences.redenet.description') }}
       </DgWorkExperience>
     </div>

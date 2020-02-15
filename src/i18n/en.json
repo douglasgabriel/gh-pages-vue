@@ -14,31 +14,36 @@
                         "duration": "2018 - Present",
                         "name": "Jaya.Tech",
                         "role": "Sr Software Engineer",
-                        "description": "Building a bank from scratch"
+                        "description": "Working in partnership with ​ C6Bank​, I had the opportunity to build a bank from scratch, talking directly with business people, understanding their problems and designing solutions, from system architecture to coding. In this opportunity I worked with technologies like Kotlin, SQL, NoSQL (MongoDB, Neo4J, Redis), Microservices, Event Sourcing, CQRS, AWS, SQS and so on. Also worked in a partnership with ​ PWN Health​, this time working with a Ruby based stack, including Rails, Kubernetes, Docker, MySQL and so on.",
+                        "technologies": "Git, Kotlin, Ruby, Docker, Kubernetes, AWS, SASS, Javascript, PostgreSQL, MySql, MongoDB, Neo4J, Redis, REST, GraphQL, CQRS, Event Sourcing"
                     },
                     "lenovo": {
                         "duration": "2017 - 2018",
                         "name": "Lenovo | LSD, SPlab - UFCG",
                         "role": "Software Engineer",
-                        "description": "I worked with people around the world, working on Open Source projects in a partnership between Lenovo and Red Hat. I was able to contribute to really great projects like ManageIQ and Lenovo XClarity, so that with different cultures of software development , I was able to evolve my own mindset, evolve as a professional, and get experience in a stack based on Ruby on Rails."
+                        "description": "I worked with people around the world, working on Open Source projects in a partnership between Lenovo and Red Hat. I was able to contribute to really great projects like ManageIQ and Lenovo XClarity, so that with different cultures of software development , I was able to evolve my own mindset, evolve as a professional, and get experience in a stack based on Ruby on Rails.",
+                        "technologies": "Git, Ruby, Python, NodeJS, Docker, Ansible, OpenShift, AngularJS, PostgreSQL, Memcache, Selenium"
                     },
                     "cartapio": {
                         "duration": "2016 - 2017",
                         "name": "Cartápio",
                         "role": "Founder",
-                        "description": "I founded the Cartapio for the will to undertake, the will to create something great, the willingness to show that I could create a project that had a positive impact on people's lives. With this, I gained experience at business, customer contact and support and technologies used (Java, Spring Framework, AngularJs) and an even greater willingness to create new projects."
+                        "description": "I founded the Cartapio for the will to undertake, the will to create something great, the willingness to show that I could create a project that had a positive impact on people's lives. With this, I gained experience at business, customer contact and support and technologies used (Java, Spring Framework, AngularJs) and an even greater willingness to create new projects.",
+                        "technologies": "Git, Javascript, SASS, Java, Spring, PostgreSQL, Ionic, Angular, Heroku"
                     },
                     "stefanini": {
                         "duration": "2016 - 2017",
                         "name": "Stefanini",
                         "role": "Software Engineer",
-                        "description": "At Stefanini, I had the opportunity to work with some technologies, such as: Java, Spring Framework, FreeMarker, AngularJs, ASP.NET, JSF and others. Besides the opportunity to work on some projects for Correios, Caixa and Usebens. Interacting directly with clients, analyzing solutions, assuming the role of technical leader."
+                        "description": "At Stefanini, I had the opportunity to work with some technologies, such as: Java, Spring Framework, FreeMarker, AngularJs, ASP.NET, JSF and others. Besides the opportunity to work on some projects for Correios, Caixa and Usebens. Interacting directly with clients, analyzing solutions, assuming the role of technical leader.",
+                        "technologies": "Git, Java, C#, Javascript, AngularJS, OracleDB, PostgreSQL, MySQL"
                     },
                     "redenet": {
                         "duration": "2016",
                         "name": "Redenet",
                         "role": "Software Engineer",
-                        "description": "I have worked on the evolution of Web systems based on the Java stack (JSF, JPA, EJB) since the requirements survey, until deploy. Later I developed the specification of a system with more modern technologies (AngularJs, Ionic Framework, Spring Framework) becoming the technical leader at the beginning of the project."
+                        "description": "I have worked on the evolution of Web systems based on the Java stack (JSF, JPA, EJB) since the requirements survey, until deploy. Later I developed the specification of a system with more modern technologies (AngularJs, Ionic Framework, Spring Framework) becoming the technical leader at the beginning of the project.",
+                        "technologies": "Git, Java, EJB, Ionic, Angular"
                     }
                 }
             },

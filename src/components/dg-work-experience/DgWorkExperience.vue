@@ -8,12 +8,16 @@
       <h2 class="company">{{ company }}</h2>
       <h4 class="role">{{ role }}</h4>
       <p class="description"><slot></slot></p>
+      <DgBadgeList :terms="technologies" />
     </div>
   </div>
 </template>
 
 <script>
+import DgBadgeList from '@/components/dg-badge-list/DgBadgeList'
+
 export default {
+  components: { DgBadgeList },
   props: {
     duration: {
       type: String
@@ -28,6 +32,9 @@ export default {
       type: String
     },
     icon: {
+      type: String
+    },
+    technologies: {
       type: String
     }
   },
